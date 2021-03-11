@@ -9,3 +9,44 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="container">
+        <div id="form">
+        <form id="book_tickets">
+          <fieldset>
+            <legend>Booking Details</legend>
+        
+            <p>
+              <label for="movie_name">Movie</label>
+              <select id="movie_name" name="movie_name" required autofocus>
+                <option></option>
+                <option value="Movie 1">Avatar</option>
+                <option value="Movie 2">Godzilla VS Kong</option>
+                <option value="Movie 3">Titanic</option>
+              </select>
+            </p>
+        
+            <p>
+              <label for="theaters">Theaters</label>
+              <select id="theaters" required>
+                <option></option>
+                    <option value="Theater 1">Cineplex- North York</option>
+                    <option value="Theater 2">Cineplex- Scarbrough</option>
+                    <option value="Theater 3">cineplex- Oshwaa</option>
+                  </select>
+                </p>
+        
+                <p>
+                  <label for="date">Date<br/><span id="dateNote">Firefox does not have a HTML5 datepicker <a href="https://support.mozilla.org/en-US/questions/986096">yet</a>.</span></label>
+                  <input type="date" name="date" id="date" min="today" required />
+                </p>
+        
+                <p>
+                  <label for="email">Email</label>
+                  <input type="email" name="email" id="email" required />
+                </p>
+        
+                <p>
+                  <label for="tickets_quantity"># Tickets</label>
+                  <input type="number" min="1" name="tickets_quantity" id="tickets_quantity" required />
+                </p>
+        
