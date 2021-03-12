@@ -113,3 +113,24 @@ p.text {
 p.text span {
   color: #6feaf6;
 }
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  a:hover {
+    background-color: ##FFFFFF;
+    color: white;
+  }
+  
+  .next {
+    background-color: ##FFFFFF;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  
