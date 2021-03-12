@@ -121,13 +121,13 @@ a {
   }
   
   a:hover {
-    background-color: ##FFFFFF;
+    background-color: #FFFFFF;
     color: white;
   }
   
   .next {
-    background-color: ##FFFFFF;
-    color: white;
+    background-color: #FFFFFF;
+    color: black;
   }
   
   .round {
